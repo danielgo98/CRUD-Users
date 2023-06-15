@@ -29,7 +29,7 @@ public class MantenedorUsuariosMain {
                 Object[] opArray = operaciones.keySet().toArray();
                 Object opcion = JOptionPane.showInputDialog(null,
                         "Seleccione una opcion",
-                        "Mantenedor de productos",
+                        "Mantenedor de usuarios",
                         JOptionPane.INFORMATION_MESSAGE, null, opArray, opArray[0]);
 
                 if (opcion == null) {
