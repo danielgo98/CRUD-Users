@@ -96,7 +96,7 @@ public class UsuarioRepositorio implements Repositorio<Usuario> {
         }
     }
 
-    public Usuario crearUsuario(ResultSet rs) throws SQLException {
+    private Usuario crearUsuario(ResultSet rs) throws SQLException {
         Usuario u = new Usuario();
         u.setId(rs.getLong("id"));
         u.setUsername(rs.getString("username"));
